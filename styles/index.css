@@ -1,57 +1,55 @@
 body {
-    background-color: lightgreen;
+  background-color: lightgreen;
 }
 
 .container {
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 25vh;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 25vh;
 }
 
 .beer-button {
-    background-color: lightcoral;
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-    border: 3px solid;
-    border-radius: 15px;
-    color: white;
-    padding: 30px 47px;
-    display: inline-block;
-    font-size: 25px;
+  background-color: lightcoral;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border: 3px solid;
+  border-radius: 15px;
+  color: white;
+  padding: 30px 47px;
+  display: inline-block;
+  font-size: 25px;
 }
 
 .beer-button:hover {
-    background-color: rgb(78, 145, 78);
-    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  background-color: rgb(78, 145, 78);
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
 }
 
-
 .reset-button {
-    background-color: lightcoral;
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-    border: 3px solid;
-    border-radius: 15px;
-    color: white;
-    padding: 30px 47px;
-    display: inline-block;
-    font-size: 25px;
+  background-color: lightcoral;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border: 3px solid;
+  border-radius: 15px;
+  color: white;
+  padding: 30px 47px;
+  display: inline-block;
+  font-size: 25px;
 }
 
 .reset-button:hover {
-    background-color: rgb(78, 145, 78);
-    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  background-color: rgb(78, 145, 78);
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
 }
 
-
-
-
 .beer-section {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 7vh;
-    text-align: justify;
-    font-weight: bold;
-    color: rgb(199, 132, 142);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 7vh;
+  text-align: justify;
+  font-weight: bold;
+  color: rgb(199, 132, 142);
 }

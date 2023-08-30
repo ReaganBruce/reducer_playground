@@ -5,14 +5,13 @@ import Beers from "./views/Beers";
 const App = () => {
   return (
     <>
-    <Router>
-      <Routes>
-        <Route path="/" element={ <Beers /> }/>
-      </Routes>
-    </Router>
-    
+      <Router>
+        <Routes>
+          <Route path="/" element={<Beers />} />
+        </Routes>
+      </Router>
     </>
-  )
-}
+  );
+};
 
 export default App;

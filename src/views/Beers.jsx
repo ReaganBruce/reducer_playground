@@ -31,7 +31,11 @@ const Beers = () => {
         <button type="button" className="beer-button" onClick={handleDebounce}>
           BEER
         </button>
-        <button type="button" className="reset-button m-4" onClick={handleReset}>
+        <button
+          type="button"
+          className="reset-button m-4"
+          onClick={handleReset}
+        >
           RESET
         </button>
       </section>
