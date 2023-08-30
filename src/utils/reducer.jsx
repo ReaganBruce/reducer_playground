@@ -22,7 +22,7 @@ export const reducer = (state, action) => {
     case ACTIONS.FETCH_ERROR:
       return {
         ...state,
-        error: "Error fetching: " + action.payload,
+        error: `ERROR FETCHING: ${action.payload}`,
         fetching: false,
         beer: {},
       };
