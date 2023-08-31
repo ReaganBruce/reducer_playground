@@ -22,7 +22,7 @@ const Beers = () => {
 
   const handleReset = () => {
     dispatch({ type: ACTIONS.RESET_DATA });
-    !state.fetching ? alert("No data to fetch!") : null;
+    !state.fetching ? alert("No data to reset!") : null;
   };
 
   return (
